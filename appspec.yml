@@ -1,8 +1,8 @@
-version: 0.2
+version: 0.0
 # specification file for CodeDeploy
 os: linux
 files:
-  # unzip the build artifacts in ~/app
+  # unzip the build artifact in ~/app
   - source: /
     destination: /home/ec2-user/app/release
 permissions:
